@@ -1,0 +1,25 @@
+body {
+  background-color: #24353f;
+}
+.nav {
+  height: 56px;
+  background-color: #24353f;
+  box-shadow: 1px 1px 30px black;
+}
+.btn-prop {
+  color: #929486;
+}
+
+.main {
+     width: 836px;
+  height: 153px;
+  margin:auto;
+  text-align: center;
+  left: 30%;
+  top: 30%;
+  box-shadow: 1px 1px 30px black;
+ 
+}
+.user-name{
+    color:#17A2B8;
+}

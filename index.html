@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+  </head>
+  <body>
+    <div class="login w-50 my-5">
+      <h1 class="smart-txt">Smart Login System</h1>
+      <input
+        type="text"
+        class="form-control w-75 mx-auto my-3"
+        placeholder="Enter Your Email"
+        id="userEmail"
+      />
+      <input
+        type="password"
+        class="form-control w-75 mx-auto my-3"
+        placeholder="Enter Your Password"
+        id="userPassword"
+      />
+      <a href="#" id="anchor">
+      <button
+        class="form-control w-75 mx-auto my-3 btn btn-outline-info"
+        id="loginBtn"
+        onclick="logining()"
+      >
+        Login
+      </button>
+    </a>
+      <h6 class="account">
+        Don’t have an account?
+        <span><a href="signUp.html" class="text-white"> Sign Up</a></span>
+      </h6>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/backend.js"></script>
+  </body>
+</html>
